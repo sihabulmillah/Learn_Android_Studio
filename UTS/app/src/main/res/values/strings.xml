@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UTS</string>
+    <string name="welcome"><b>Welcome User</b></string>
+    <string name="total"><b>TOTAL</b></string>
+    <string name="Rp"><b>Rp. 600.000,-</b></string>
+    <string name="Date_F"><b>Date From</b></string>
+    <string name="Date_t"><b>Date To</b></string>
+    <string-array name="date">
+        <item>Date</item>
+        <item>Mont</item>
+        <item>Year</item>
+    </string-array>
+    <string name="send">SEND</string>
+    <string name="fild">Failed</string>
+    <string name="enampuluh"><b>60</b></string>
+</resources>

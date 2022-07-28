@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home Page"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang, "
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Tetap Semangat Menjalankan Aktifitas di setiap harinya !"
+        />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProjectKebutUTS</string>
+    <string name="hg">Hallo Ganteng</string>
+    <string name="nama_anak">Ujang Bin Ucup</string>
+    <string name="nama_bapak">Ucup Bin Ucok</string>
+    <string name="daftar_nama">Daftar Nama</string>
+    <string-array name="nama">
+        <item>Ujang</item>
+        <item>Udin</item>
+        <item>Usro</item>
+        <item>Ucok</item>
+        <item>Ucup</item>
+    </string-array>
+</resources>

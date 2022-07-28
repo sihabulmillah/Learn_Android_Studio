@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2"
+    android:background="#FF018786">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher_foreground" />
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klinik Kita"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_below="@id/img_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/txt1"
+        >
+
+        <ImageView
+            android:id="@+id/layanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_below="@id/txt1"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll1_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    <TextView
+        android:id="@+id/txt_layanan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll1"
+        android:text="Layanan"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        />
+        <TextView
+            android:id="@+id/txt_call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll1"
+            android:text="Hubungi Kami"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/logo_daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll1_txt"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/txt_daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Antrian"
+        android:layout_below="@id/logo_daftar"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:id="@+id/btn_pindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pindah"
+        android:layout_below="@id/txt_daftar"
+        android:layout_marginTop="26dp"
+        android:textSize="20dp"
+        android:background="@color/cardview_shadow_start_color"
+        />
+    <Button
+        android:id="@+id/btn_listener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listener Interface"
+        android:layout_below="@id/txt_daftar"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="26dp"
+        android:textSize="20dp"
+        android:background="@color/cardview_shadow_start_color"
+        />
+    <Button
+        android:id="@+id/btn_listener_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klik Uy"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_pindah"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="26dp"
+        android:textSize="20dp"
+        android:onClick="Pencet"
+        android:background="@color/cardview_shadow_start_color"
+        />
+</RelativeLayout>
